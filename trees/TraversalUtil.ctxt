@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TraversalUtil
+comment0.text=\r\n\ Important\ utility\ methods\ to\ use\ in\ the\ binary\ tree\r\n\r\n\ @author\ (Yousuf\ Abdullah\ Borna)\r\n\ @version\ (1/18/2021)\r\n
+comment1.params=root
+comment1.target=void\ preOrder(TreeNode)
+comment2.params=root
+comment2.target=void\ inOrder(TreeNode)
+comment3.params=root
+comment3.target=void\ postOrder(TreeNode)
+numComments=4

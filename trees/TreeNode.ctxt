@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TreeNode
+comment0.text=\r\n\ Class\ for\ treeNode\ which\ includes\ data,left\ and\ right\ nodes\r\n\r\n\ @author\ (Yousuf\ Abdullah\ Borna)\r\n\ @version\ (1/18/2021)\r\n
+comment1.params=data
+comment1.target=TreeNode(int)
+numComments=2
