@@ -6,6 +6,9 @@
  * @version (1/18/2021)
  */
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class TraversalUtil
 {
    public static void preOrder(TreeNode root){
@@ -54,6 +57,29 @@ public class TraversalUtil
          System.out.print(root.data+" ");
     
     
+    
+    }
+    
+    
+    
+    public static void levelOrder(TreeNode root){
+    
+        
+    Deque<TreeNode> deque  = new LinkedList<TreeNode>(); 
+    
+        //FIRST LEVEL OF THE QUEUE TO BE ROOT
+       deque.add(root); 
+    
+       while( deque.isEmpty() != true){
+        
+           TreeNode pop = deque.removeFirst();
+            if(pop != null){
+            System.out.println(pop.data);
+            deque.add(pop.left);
+            deque.add(pop.right);
+        }
+        
+        }
     
     }
     
