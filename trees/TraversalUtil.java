@@ -8,6 +8,7 @@
 
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class TraversalUtil
 {
@@ -80,6 +81,48 @@ public class TraversalUtil
         }
         
         }
+    
+    }
+    
+    
+    public static void preOrderIterative(TreeNode root){
+    
+        
+        Stack<TreeNode> list = new Stack<TreeNode>();
+        
+        
+        list.push(root);
+        
+        System.out.println("Hello");
+        
+        while(list.empty() != true){
+        
+        
+            TreeNode temp = list.pop();
+            
+            
+            System.out.println(temp.data);
+            if(temp.right != null){
+            
+                list.push(temp.right);
+            
+            }
+            
+            
+            if(temp.right != null){
+            
+                list.push(temp.left);
+            
+            }
+            
+            
+        }
+    
+    
+    
+    
+    
+    
     
     }
     

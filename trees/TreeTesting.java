@@ -24,8 +24,8 @@ public class TreeTesting
        //traversal.preOrder(root);
        //traversal.inOrder(root);
        //traversal.postOrder(root);
-       traversal.levelOrder(root);
-       
+       //traversal.levelOrder(root);
+       traversal.preOrderIterative(root);
     
     
     }
