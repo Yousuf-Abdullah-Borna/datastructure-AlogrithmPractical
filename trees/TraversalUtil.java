@@ -93,7 +93,7 @@ public class TraversalUtil
         
         list.push(root);
         
-        System.out.println("Hello");
+        
         
         while(list.empty() != true){
         
@@ -101,7 +101,7 @@ public class TraversalUtil
             TreeNode temp = list.pop();
             
             
-            System.out.println(temp.data);
+            System.out.print(temp.data+" ,");
             if(temp.right != null){
             
                 list.push(temp.right);
